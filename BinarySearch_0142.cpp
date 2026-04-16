@@ -60,6 +60,21 @@ void display ()
 
     for (int j = 0; j < npanjang; j++)
     {
-    
+        cout << element[j];
+        if (j < npanjang - 1)
+        {
+            cout << " -> ";
+        }
+    }
+    cout << endl;
+}
+
+void binarySeach()
+{
+    char ulang;
+    do
+    {
+        cout << "\n==========================================\n";
+        
     }
 }
