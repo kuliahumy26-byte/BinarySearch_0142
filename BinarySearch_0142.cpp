@@ -5,3 +5,10 @@ int elemen[10];
 int npanjang;
 int x;
 
+void input() 
+{
+ while(true)
+ {
+    
+ }   
+}
