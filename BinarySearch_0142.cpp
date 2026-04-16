@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-int elemen[10];
+int element[10];
 int npanjang;
 int x;
 
@@ -29,5 +29,12 @@ void input()
  for (int i = 0; i <npanjang; i++)
  {
     cout << "Data ke-" << (i + 1) << " = "; 
+    cin >> element[i];
  }
+
+}
+
+void bubbleSortArray()
+{
+
 }
